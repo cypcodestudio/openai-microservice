@@ -1,6 +1,10 @@
 spring:
   application:
     name: openai-microservice
-  
+  ai:
+    openai:
+      api-key: ${YOUR_OPENAI_API_KEY}
+      chat:
+        base-url: https://api.openai.com/v1/chat/completions
         
 #initialzr: https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.3.5&packaging=jar&jvmVersion=17&groupId=com.cypcode&artifactId=openai-microservice&name=openai-microservice&description=Demo%20project%20for%20Spring%20Boot&packageName=com.cypcode.openai-microservice&dependencies=devtools,lombok,web,spring-ai-openai
